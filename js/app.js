@@ -4,7 +4,7 @@ $(document).ready(function () {
   $('.blog').click(function () {
       $('.blog-content').load('./pages/post.html');
       $('.home-img').hide();
-      $('.blog').unbind('click');
+      $('.blog').off('click');
   });
 
   $('.blog').click(function () {
@@ -20,7 +20,7 @@ $(document).ready(function () {
   $('.about').click(function () {
     $('.about-content').load('./pages/about.html');
     $('.home-img').hide();
-    $('.about').unbind('click');
+    $('.about').off('click');
 });
 
 $('.about').click(function () {
