@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   $('.blog').click(function () {
-      $('blog-content').load('./pages/post.html');
+      $('.blog-content').load('./pages/post.html');
       $('.home-img').hide();
       $('.blog').unbind('click');
   });
@@ -16,5 +16,21 @@ $(document).ready(function () {
       $('.home-img').show();
     }
   });
+
+  $('.about').click(function () {
+    $('.about-content').load('./pages/about.html');
+    $('.home-img').hide();
+    $('.about').unbind('click');
+});
+
+$('.about').click(function () {
+  if ($('.about-content').is(':hidden')) {
+    $('.about-content').slideDown();
+  }
+  else {
+    $('.about-content').slideUp();
+    $('.home-img').show();
+  }
+});
 
 })
