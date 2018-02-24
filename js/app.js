@@ -1,25 +1,20 @@
 
 $(document).ready(function () {
 
-  var blogClick = false;
+  $('.blog').click(function () {
+      $('blog-content').load('./pages/post.html');
+      $('.home-img').hide();
+      $('.blog').unbind('click');
+  });
 
-  if (!blogClick) {
-    $('.blog').click(function () {
-        $('blog-content').load('./pages/post.html');
-        blogClick = true;
-        $('.home-img').hide();
-    });
-  }
-  else if ($('.blog-content').is(':hidden')) {
-    $('.blog').click(function () {
-      ('.blog-content').slideDown();
-    });
-  }
-  else {
-    $('.blog').click(function () {
-      ('.blog-content').slideUp();
+  $('.blog').click(function () {
+    if ($('.blog-content').is(':hidden')) {
+      $('.blog-content').slideDown();
+    }
+    else {
+      $('.blog-content').slideUp();
       $('.home-img').show();
-    });
-  }
+    }
+  });
 
 })
