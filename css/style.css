@@ -52,9 +52,14 @@ p {
   z-index: 10;
 }
 
-#nav-text {
+#nav-button {
   font-size: 130%;
   font-weight: bold;
+  background: transparent;
+  padding: 15px auto;
+  margin: 2px 5px;
+  border: 0px solid  #323339;
+  border-radius: 5px;
 }
 
 .title {
