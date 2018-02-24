@@ -29,6 +29,11 @@ p {
   color: #5F9E6A;
   font-weight: bolder;
 }
+.strong-text {
+  font-family: 'Slabo 13px', serif;
+  color: #323339;
+  font-weight: bolder;
+}
 
 .orange-text {
   font-family: 'Slabo 13px', serif;
@@ -50,12 +55,13 @@ p {
   margin-left: auto;
   margin-right: auto;
   z-index: 10;
+  min-height: 120px;
 }
 
-#nav-button {
+#nav-buttons {
   font-size: 130%;
   font-weight: bold;
-  background: transparent;
+  background-color: #FAF7EF;
   padding: 15px auto;
   margin: 2px 5px;
   border: 0px solid  #323339;
@@ -88,9 +94,10 @@ p {
 	margin-right: auto;
 	display: block;
 }
-
+.about-content {
+  min-height: 250px;
+}
 #content {
-  background-color: rgba(250, 250, 250, 0.7);
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 2%;
@@ -99,4 +106,10 @@ p {
   z-index: 1;
   box-shadow: 0px 0px 4px #E48D37;
   position: relative;
+}
+
+.me-img {
+  border: 2px solid  #323339;
+  border-radius: 10px;
+  float: right;
 }
