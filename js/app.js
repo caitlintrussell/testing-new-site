@@ -2,21 +2,20 @@
 
 $(document).ready(function () {
 
-  $('.blog').click(function () {
-    $('#content').load('./pages/post.html');
+  var blogClick = false;
 
-      if ($('#content').is(":hidden")) {
-        $('#content').slideDown();
-      }
-      else {
-        $('#content').slideUp();
-        $('.about-content').slideDown();
-      }
-});
-  $('.about').click(function () {
-    $('#content').load('./pages/about.html');
-    $('.about-content').slideToggle();
+  if (!blogClick) {
+    $('.blog').click(function () {
+        $('#content').load('./pages/post.html');
+        blogClick = true;
+        $('#content').unbind('click')
+    });
+  }
+  else {
+    $('.blog').click(function () {
+      ('.blog-content').slideToggle();
+    });
+  }
 
-  })
 
 })

@@ -48,6 +48,13 @@ p {
 
 }
 
+.home-img {
+  border: 2px solid  #323339;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #E48D37;
+  /* outline-offset: -2px; */
+}
+
 /* HEADER STYLES */
 #header {
   margin-top: 3%;
