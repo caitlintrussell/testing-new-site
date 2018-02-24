@@ -7,7 +7,6 @@ $(document).ready(function () {
     $('.blog').click(function () {
         $('blog-content').load('./pages/post.html');
         blogClick = true;
-        $('.blog').unbind('click')
         $('.home-img').hide();
     });
   }
