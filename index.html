@@ -4,22 +4,25 @@
 	<title>Caitlin Trussell</title>
 	<link href='./css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 	<link href='./css/style.css' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class='container'>
-
+	<div class='container-fluid'>
+		<div id='header'>
 			<div class='row'>
-          <header>
-        <div class='col-md-4 col-md-push-4 title' id='header'>
+        <div class='col-md-4 col-md-push-4 title'>
           <img class='img-responsive title-img' src='./img/nametrans.svg'>
           <img class='img-responsive title-img' src='./img/divider.svg'>
+          <div class='row'>
+            <div class='col-md-12'>
           <button type='button' class='about' id='nav-buttons'>ABOUT</button>
           <button type='button' class='projects' id='nav-buttons'>PROJECTS</button>
           <button type='button' class='blog' id='nav-buttons'>FS BLOG</button>
-        </header>
+        </div></div>
         </div>
 			</div>
+		</div>
 
 		<div class='row'>
 			<div class='col-md-3 hidden-sm hidden-xs' id='plant-left'><img class='img-responsive plant-img' src='./img/plantleft.svg'></div>
@@ -27,9 +30,7 @@
 		</div>
 		<div class='row'>
 			<div class='col-md-push-3 col-md-6' id='content'>
-        <div class='home-img'>
-          <img src='./img/plants.svg' class='img-responsive'>
-        </div>
+        <div class='home-img'><img src='./img/plants.svg' class='img-responsive'></div>
         <div class='blog-content'></div>
         <div class='about-content'></div>
 			</div>
