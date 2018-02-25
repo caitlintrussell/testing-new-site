@@ -6,15 +6,10 @@ $(document).ready(function () {
   var blogClicks = false;
   $('.blog').click(function () {
     if (!blogClicks) {
-      $('.home-img').slideUp();
-      $('.about-content').slideUp();
-      $('.blog-content').slideDown();
+      $('.home-img').hide();
+      $('.about-content').hide();
+      $('.blog-content').show();
       blogClicks = true;
-    }
-    else {
-      $('.blog-content').slideUp();
-      $('.home-img').slideDown();
-      blogClicks = false;
     }
 
   });
@@ -25,19 +20,10 @@ var aboutClicks = false;
     if (!aboutClicks) {
       $('.home-img').hide();
       $('.blog-content').hide();
-      $('.about-content').slideDown();
+      $('.about-content').show();
       aboutClicks = true;
-    }
-    else {
-      $('.about-content').slideUp();
-      $('.home-img').slideDown();
-      aboutClicks = false;
     }
 
 });
-
-
-
-
 
 })
