@@ -95,10 +95,12 @@ p {
 /* CONTENT STYLES */
 #plant-right {
   position: fixed;
+  display: none;
 }
 #plant-left {
   position: fixed;
   margin-top: 50px;
+  display: none;
 }
 .plant-img {
   width: 70%;
