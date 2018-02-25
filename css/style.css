@@ -3,6 +3,7 @@
 body {
   background-color: #FAF7EF;
   font-family: 'Slabo 13px', serif;
+  padding-top: 120px;
 }
 
 .text-area {
@@ -62,12 +63,18 @@ p {
 
 /* HEADER STYLES */
 #header {
-  margin-top: 3%;
-  width: 100%;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 10;
-  min-height: 120px;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  background-color: #FAF7EF;
+}
+
+.nav-up {
+  top: -120px;
 }
 
 #nav-buttons {
