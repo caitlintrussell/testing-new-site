@@ -1,8 +1,7 @@
 
 $(document).ready(function () {
   $('.blog-content').load('./pages/post.html');
-  #('.about-content').load('./pages/about.html')
-
+  $('.about-content').load('./pages/about.html')
 
   var blogClicks = false;
   $('.blog').click(function () {
