@@ -98,6 +98,7 @@ p {
 }
 .about-content {
   display: none;
+  min-height: 250px;
 }
 .project-content {
   display: none;
@@ -151,7 +152,7 @@ p {
 	display: block;
 }
 .about-content {
-  min-height: 250px;
+
 }
 #content {
   margin-top: 0;

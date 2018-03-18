@@ -3,7 +3,7 @@ $(document).ready(function () {
   /* Loads in the content for each page */
   $('.blog-content').load('./pages/post.html');
   $('.about-content').load('./pages/about.html')
-  $('.projects-content').load('./pages/projects.html')
+  $('.project-content').load('./pages/projects.html')
 
 
   /* click event to show the blog */
