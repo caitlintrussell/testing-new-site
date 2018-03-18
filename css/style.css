@@ -99,6 +99,9 @@ p {
 .about-content {
   display: none;
 }
+.project-content {
+  display: none;
+}
 
 /* HEADER STYLES */
 #header {

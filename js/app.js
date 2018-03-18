@@ -12,6 +12,7 @@ $(document).ready(function () {
     $('#plant-right').show();
     $('.home-img').hide();
     $('.about-content').hide();
+    $('.project-content').hide();
     $('.blog-content').show();
 
   });
@@ -21,6 +22,7 @@ $(document).ready(function () {
     $('#plant-left').show();
     $('#plant-right').show();
     $('.blog-content').hide();
+    $('.project-content').hide();
     $('.about-content').show();
   });
 /* click event to show the projects page */
@@ -30,7 +32,7 @@ $('.projects').click(function () {
   $('#plant-right').show();
   $('.blog-content').hide();
   $('.about-content').hide();
-  $('.projects-content').show();
+  $('.project-content').show();
 });
 
 
