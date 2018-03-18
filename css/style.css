@@ -18,6 +18,12 @@ a.orange-text {
   color: #E48D37;
   font-weight: bold;
 }
+a.green-text {
+  font-family: 'Slabo 13px', serif;
+  font-size: 100%;
+  color: #5F9E6A;
+  text-decoration: none;
+}
 
 .centered {
   text-align: center;
