@@ -51,12 +51,16 @@ a:hover {
 p {
   margin-top: 2%;
   margin-bottom: 2%;
+  display: block;
 }
 .title-date {
   font-family: 'Slabo 13px', serif;
   font-size: 130%;
   color: #5F9E6A;
   font-weight: bolder;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .green-text {
