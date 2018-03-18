@@ -3,6 +3,8 @@ $(document).ready(function () {
   /* Loads in the content for each page */
   $('.blog-content').load('./pages/post.html');
   $('.about-content').load('./pages/about.html')
+  $('.projects-content').load('./pages/projects.html')
+
 
   /* click event to show the blog */
   $('.blog').click(function () {
@@ -21,7 +23,15 @@ $(document).ready(function () {
     $('.blog-content').hide();
     $('.about-content').show();
   });
-
+/* click event to show the projects page */
+$('.projects').click(function () {
+  $('.home-img').hide();
+  $('#plant-left').show();
+  $('#plant-right').show();
+  $('.blog-content').hide();
+  $('.about-content').hide();
+  $('.projects-content').show();
+});
 
 
 })

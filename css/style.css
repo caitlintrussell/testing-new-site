@@ -9,7 +9,7 @@ body {
 
 .text-area {
   color: #323339;
-  font-size: 105%;
+  font-size: 100%;
 }
 
 a.orange-text {
@@ -163,7 +163,7 @@ p {
 .me-img {
   border: 2px solid  #323339;
   border-radius: 10px;
-  float: right;
+  /* float: right; */
 }
 
 
