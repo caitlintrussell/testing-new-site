@@ -19,11 +19,24 @@ a.orange-text {
   font-weight: bold;
   text-align: right;
 }
-a.green-text {
+a {
   font-family: 'Slabo 13px', serif;
   font-size: 100%;
   color: #5F9E6A;
   text-decoration: none;
+}
+a:hover {
+  font-family: 'Slabo 13px', serif;
+  font-size: 100%;
+  color: #5F9E6A;
+  text-decoration: underline;
+}
+.left-float {
+  float: left;
+}
+
+.right-float {
+  float: right;
 }
 
 .centered {
