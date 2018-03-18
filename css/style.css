@@ -195,6 +195,7 @@ a.orange-text {
 .me-img {
   border: 2px solid  #323339;
   border-radius: 10px;
+  float: right;
 }
 
 .project-img {
@@ -235,6 +236,12 @@ a.orange-text {
   #nav-buttons {
     display: block;
     width: 100%;
+  }
+  img.me-img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
